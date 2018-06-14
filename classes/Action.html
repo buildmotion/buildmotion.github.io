@@ -1,0 +1,1591 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>buildmotion-workspace documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">buildmotion-workspace documentation</a>
+            <button type="button" class="btn btn-default btn-menu fa fa-bars" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+            <nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="index.html" data-type="index-link">buildmotion-workspace documentation</a>
+        </li>
+
+        <li class="divider"></li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="index.html"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                    <li class="link">
+                        <a 
+                            
+                             href="overview.html" 
+                             href="overview.html" 
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-th"></span>Overview
+                        </a>
+                    </li>
+                    <li class="link">
+                      <a href="index.html" data-type="chapter-link"><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+                    <li class="link">
+                        <a href="dependencies.html"
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-list"></span>Dependencies
+                        </a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter modules">
+            <a data-type="chapter-link" href="modules.html">
+                <div class="menu-toggler linked" data-toggle="collapse"
+                        data-target="#xs-modules-links"
+                >
+                    <span class="fa fa-fw fa-archive"></span>
+                    <span class="link-name">Modules</span>
+                    <span class="fa fa-angle-down"></span>
+                </div>
+            </a>
+            <ul class="links collapse"
+                    id="xs-modules-links"
+                >
+                    <li class="link">
+                        <a href="modules/ActionsModule.html" data-type="entity-link">ActionsModule</a>
+                    </li>
+            </ul>
+        </li>
+
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-classes-links"
+                >
+                <span class="fa fa-fw fa-file-code-o"></span>
+                <span>Classes</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-classes-links"
+                >
+                    <li class="link">
+                        <a href="classes/Action.html" data-type="entity-link">Action</a>
+                    </li>
+            </ul>
+        </li>
+
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-interfaces-links"
+                >
+                <span class="fa fa-fw fa-info"></span>
+                <span>Interfaces</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-interfaces-links"
+                >
+                    <li class="link">
+                        <a href="interfaces/IAction.html" data-type="entity-link">IAction</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#xs-miscellaneous-links"
+                >
+                <span class="fa fa-fw fa-cubes"></span>
+                <span>Miscellaneous</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="xs-miscellaneous-links"
+                >
+                    <li class="link">
+                      <a href="miscellaneous/enumerations.html" data-type="entity-link">Enums</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="coverage.html"><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+        </li>
+
+        <li class="divider"></li>
+        <li class="copyright">
+                Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                            <img data-src="images/compodoc-vectorise.svg" class="img-responsive" data-type="compodoc-logo">
+                </a>
+        </li>
+
+    </ul>
+
+</nav>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <nav>
+
+    <ul class="list">
+
+        <li class="title">
+            <a href="index.html" data-type="index-link">buildmotion-workspace documentation</a>
+        </li>
+
+        <li class="divider"></li>
+
+            <div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search">
+</div>
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="index.html"><span class="fa fa-home"></span>Getting started</a>
+            <ul class="links">
+                    <li class="link">
+                        <a 
+                            
+                             href="overview.html" 
+                             href="overview.html" 
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-th"></span>Overview
+                        </a>
+                    </li>
+                    <li class="link">
+                      <a href="index.html" data-type="chapter-link"><span class="fa fa-file-text-o"></span>README</a>
+                    </li>
+                    <li class="link">
+                        <a href="dependencies.html"
+                            data-type="chapter-link">
+                            <span class="fa fa-fw fa-list"></span>Dependencies
+                        </a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter modules">
+            <a data-type="chapter-link" href="modules.html">
+                <div class="menu-toggler linked" data-toggle="collapse"
+                        data-target="#modules-links"
+                >
+                    <span class="fa fa-fw fa-archive"></span>
+                    <span class="link-name">Modules</span>
+                    <span class="fa fa-angle-down"></span>
+                </div>
+            </a>
+            <ul class="links collapse"
+                    id="modules-links"
+>
+                    <li class="link">
+                        <a href="modules/ActionsModule.html" data-type="entity-link">ActionsModule</a>
+                    </li>
+            </ul>
+        </li>
+
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#classes-links"
+>
+                <span class="fa fa-fw fa-file-code-o"></span>
+                <span>Classes</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="classes-links"
+>
+                    <li class="link">
+                        <a href="classes/Action.html" data-type="entity-link">Action</a>
+                    </li>
+            </ul>
+        </li>
+
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#interfaces-links"
+>
+                <span class="fa fa-fw fa-info"></span>
+                <span>Interfaces</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="interfaces-links"
+>
+                    <li class="link">
+                        <a href="interfaces/IAction.html" data-type="entity-link">IAction</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <div class="simple menu-toggler" data-toggle="collapse"
+                    data-target="#miscellaneous-links"
+>
+                <span class="fa fa-fw fa-cubes"></span>
+                <span>Miscellaneous</span>
+                <span class="fa fa-angle-down"></span>
+            </div>
+            <ul class="links collapse"
+                    id="miscellaneous-links"
+>
+                    <li class="link">
+                      <a href="miscellaneous/enumerations.html" data-type="entity-link">Enums</a>
+                    </li>
+            </ul>
+        </li>
+
+
+        <li class="chapter">
+            <a data-type="chapter-link" href="coverage.html"><span class="fa fa-fw fa-tasks"></span>Documentation coverage</a>
+        </li>
+
+        <li class="divider"></li>
+        <li class="copyright">
+                Documentation generated using <a href="https://compodoc.github.io/website/" target="_blank">
+                            <img data-src="images/compodoc-vectorise.svg" class="img-responsive" data-type="compodoc-logo">
+                </a>
+        </li>
+
+    </ul>
+
+</nav>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content class">
+                   <div class="content-data">
+
+
+
+
+
+
+
+
+
+<ol class="breadcrumb">
+  <li>Classes</li>
+  <li>Action</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info">
+        <p class="comment">
+            <h3>File</h3>
+        </p>
+        <p class="comment">
+            <code>libs/actions/src/Action.ts</code>
+        </p>
+
+            <p class="comment">
+                <h3>Description</h3>
+            </p>
+            <p class="comment">
+                <p>This is the framework Action class that provides the pipeline of pre/post
+execution methods. This class implements the [Template Method] pattern.</p>
+<p>The pre-execute functions that can be implemented are:</p>
+<div><pre class="line-numbers"><code class="language-none">    1. start();
+    2. audit();
+    3. preValidateAction();
+    4. evaluateRules();
+    5. postValidateAction();
+    6. preExecuteAction();</code></pre></div><p>If the status of action is good, the business logic will be executed using the:</p>
+<div><pre class="line-numbers"><code class="language-none">    7. processAction();</code></pre></div><p>The post-execution functions that can be implemented are:</p>
+<div><pre class="line-numbers"><code class="language-none">    8. postExecuteAction();
+    9. validateActionResult();
+    10. finish();</code></pre></div>
+            </p>
+
+
+            <p class="comment">
+                <h3>Implements</h3>
+            </p>
+            <p class="comment">
+                        <code><a href="../interfaces/IAction.html" target="_self" >IAction</a></code>
+            </p>
+
+
+            <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#_validationContext">_validationContext</a>
+                            </li>
+                            <li>
+                                <a href="#actionResult">actionResult</a>
+                            </li>
+                            <li>
+                                <a href="#allowExecution">allowExecution</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#audit">audit</a>
+                            </li>
+                            <li>
+                                <a href="#evaluateRules">evaluateRules</a>
+                            </li>
+                            <li>
+                                <a href="#execute">execute</a>
+                            </li>
+                            <li>
+                                <a href="#finish">finish</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#finishAction">finishAction</a>
+                            </li>
+                            <li>
+                                <a href="#performAction">performAction</a>
+                            </li>
+                            <li>
+                                <a href="#postExecuteAction">postExecuteAction</a>
+                            </li>
+                            <li>
+                                <a href="#postValidateAction">postValidateAction</a>
+                            </li>
+                            <li>
+                                <a href="#preExecuteAction">preExecuteAction</a>
+                            </li>
+                            <li>
+                                <a href="#preValidateAction">preValidateAction</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#processAction">processAction</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#processActionPipeline">processActionPipeline</a>
+                            </li>
+                            <li>
+                                <a href="#start">start</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#startAction">startAction</a>
+                            </li>
+                            <li>
+                                <a href="#validateAction">validateAction</a>
+                            </li>
+                            <li>
+                                <a href="#validateActionResult">validateActionResult</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+            <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor()</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">libs/actions/src/Action.ts:44</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>The default constructor for the class.</p>
+</div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+            <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="_validationContext"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            _validationContext
+                            </b>
+                            <a href="#_validationContext"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <span class="modifier-icon fa fa-reset"></span><code>_validationContext:     <code>ValidationContext</code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>ValidationContext</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>new ValidationContext()</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">libs/actions/src/Action.ts:38</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>The validation context for the specified action instance.</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="actionResult"></a>
+                        <span class="name">
+                            <b>
+                            actionResult
+                            </b>
+                            <a href="#actionResult"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>actionResult:     <code><a href="../classes/Action.html" target="_self" >ActionResult</a></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code><a href="../classes/Action.html" target="_self" >ActionResult</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>ActionResult.Unknown</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="44" class="link-to-prism">libs/actions/src/Action.ts:44</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>The result of the action. The default value is [Unknown], until the action
+is executed.</p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="allowExecution"></a>
+                        <span class="name">
+                            <b>
+                            allowExecution
+                            </b>
+                            <a href="#allowExecution"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <code>allowExecution:     <code></code>
+</code>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>true</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">libs/actions/src/Action.ts:33</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <div class="io-description"><p>Indicates if the action is allowed execution. If there are any rule 
+violations in the validation context, the action is not allowed to 
+execute. </p>
+</div>
+                    </td>
+                </tr>
+
+            </tbody>
+        </table>
+</section>
+
+            <section>
+    
+        <h3 id="methods">
+            Methods
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="audit"></a>
+                        <span class="name">
+                            <b>
+                            audit
+                            </b>
+                            <a href="#audit"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>audit()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="138" class="link-to-prism">libs/actions/src/Action.ts:138</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Implement this function to perform any auditing features during the pre-exectuion of the
+business logic.</p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="evaluateRules"></a>
+                        <span class="name">
+                            <b>
+                            evaluateRules
+                            </b>
+                            <a href="#evaluateRules"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>evaluateRules()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="154" class="link-to-prism">libs/actions/src/Action.ts:154</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Use this function to implement the execution of the validation and business rules. This
+function is called after [preValidateAction].</p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="execute"></a>
+                        <span class="name">
+                            <b>
+                            execute
+                            </b>
+                            <a href="#execute"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>execute()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="63" class="link-to-prism">libs/actions/src/Action.ts:63</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Use this method to execute a concrete action. A concrete action must implement
+the [processAction] and the [validateActionResult] functions to be a valid
+action.</p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="finish"></a>
+                        <span class="name">
+                            <b>
+                            finish
+                            </b>
+                            <a href="#finish"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>finish()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="201" class="link-to-prism">libs/actions/src/Action.ts:201</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Use this function to perform any cleanup, logging, or disposing of resources used
+by the action. This is the last function called during the pipeline.</p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="finishAction"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            finishAction
+                            </b>
+                            <a href="#finishAction"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span>
+                        <code>finishAction()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="96" class="link-to-prism">libs/actions/src/Action.ts:96</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Use this method to execute the methods at the end of the action pipeline.</p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="performAction"></a>
+                        <span class="name">
+                            <b>
+                            performAction
+                            </b>
+                            <a href="#performAction"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>performAction()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="120" class="link-to-prism">libs/actions/src/Action.ts:120</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>All action must implement this function. This is where your
+[business logic] should be implemented. This function is called if
+there are no validation rule exceptions.</p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="postExecuteAction"></a>
+                        <span class="name">
+                            <b>
+                            postExecuteAction
+                            </b>
+                            <a href="#postExecuteAction"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>postExecuteAction()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="185" class="link-to-prism">libs/actions/src/Action.ts:185</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Use this funciton to evaluate the action after the the business logic within
+the [performAction] has executed.</p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="postValidateAction"></a>
+                        <span class="name">
+                            <b>
+                            postValidateAction
+                            </b>
+                            <a href="#postValidateAction"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>postValidateAction()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="170" class="link-to-prism">libs/actions/src/Action.ts:170</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Use to determine or handle the results of the rule evalation. This
+function is called after the [evaluateRules].</p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="preExecuteAction"></a>
+                        <span class="name">
+                            <b>
+                            preExecuteAction
+                            </b>
+                            <a href="#preExecuteAction"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>preExecuteAction()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="177" class="link-to-prism">libs/actions/src/Action.ts:177</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Use this function to perform any setup before the action is executed.</p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="preValidateAction"></a>
+                        <span class="name">
+                            <b>
+                            preValidateAction
+                            </b>
+                            <a href="#preValidateAction"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>preValidateAction()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="146" class="link-to-prism">libs/actions/src/Action.ts:146</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Use this function to setup any validation rules before the validation happens. This
+function is called before [evaluateRules].</p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="processAction"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            processAction
+                            </b>
+                            <a href="#processAction"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span>
+                        <code>processAction()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="110" class="link-to-prism">libs/actions/src/Action.ts:110</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Use this method to process the action. This will only be called if the action&#39;s 
+validation context is in a valid state (no rule violations).</p>
+<p>All concrete actions are required to provide an implementation of the [performAction] 
+method that is called for this part of the action pipeline.</p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="processActionPipeline"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            processActionPipeline
+                            </b>
+                            <a href="#processActionPipeline"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span>
+                        <code>processActionPipeline()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="71" class="link-to-prism">libs/actions/src/Action.ts:71</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Use this method to process the action pipeline methods. </p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="start"></a>
+                        <span class="name">
+                            <b>
+                            start
+                            </b>
+                            <a href="#start"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>start()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="130" class="link-to-prism">libs/actions/src/Action.ts:130</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Override/Implement this function to perform an early operation in the action pipeline.
+This function belongs to the pre-execute functions of the action pipeline.</p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="startAction"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            startAction
+                            </b>
+                            <a href="#startAction"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                            <span class="modifier-icon fa fa-reset"></span>
+                        <code>startAction()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="83" class="link-to-prism">libs/actions/src/Action.ts:83</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Use this method to call the pipeline methods for the [start] or beginning 
+process of the action pipeline.</p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="validateAction"></a>
+                        <span class="name">
+                            <b>
+                            validateAction
+                            </b>
+                            <a href="#validateAction"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>validateAction()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="208" class="link-to-prism">libs/actions/src/Action.ts:208</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>Implement this function to perform validation of business rules and data.</p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="validateActionResult"></a>
+                        <span class="name">
+                            <b>
+                            validateActionResult
+                            </b>
+                            <a href="#validateActionResult"><span class="fa fa-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+<code>validateActionResult()</code>
+                    </td>
+                </tr>
+
+
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="193" class="link-to-prism">libs/actions/src/Action.ts:193</a></div>
+                            </td>
+                        </tr>
+
+
+                <tr>
+                    <td class="col-md-4">
+                            <div class="io-description"><p>This function requires implementation to determin the state and result of the action.
+Use this opportunity to validate the results.</p>
+</div>
+
+                            <div class="io-description">
+                                <b>Returns : </b>    <code><a href="../classes/Action.html" target="_self" >ActionResult</a></code>
+
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+
+            <section>
+    <h3 id="accessors">
+        Accessors
+    </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="validationContext"></a>
+                        <span class="name"><b>validationContext</b><a href="#validationContext"><span class="fa fa-link"></span></a></span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <span class="accessor"><b>get</b><code>validationContext()</code></span>
+                    </td>
+                </tr>
+                            <tr>
+                                <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="54" class="link-to-prism">libs/actions/src/Action.ts:54</a></div>
+                                </td>
+                            </tr>
+                    <tr>
+                        <td class="col-md-4">
+                                <div class="io-description"><p>Use to retrieve the [ValidationContext] for the specified action.</p>
+</div>
+
+                                <div class="io-description">
+                                    <b>Returns : </b>    <code>ValidationContext</code>
+
+                                </div>
+                        </td>
+                    </tr>
+
+            </tbody>
+        </table>
+</section>
+    </div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { ValidationContext } from &#x27;@buildmotion/rules-engine&#x27;;
+import { ValidationContextState } from &#x27;@buildmotion/rules-engine&#x27;;
+import { IAction } from &#x27;./IAction&#x27;;
+import { ActionResult } from &#x27;./ActionResult&#x27;;
+
+/**
+ * This is the framework Action class that provides the pipeline of pre/post
+ * execution methods. This class implements the [Template Method] pattern.
+ *
+ * The pre-execute functions that can be implemented are:
+ *		1. start();
+ *		2. audit();
+ *		3. preValidateAction();
+ *		4. evaluateRules();
+ *		5. postValidateAction();
+ *		6. preExecuteAction();
+ *
+ *If the status of action is good, the business logic will be executed using the:
+ *		7. processAction();
+ *
+ * The post-execution functions that can be implemented are:
+ *		8. postExecuteAction();
+ *		9. validateActionResult();
+ *		10. finish();
+ */
+export class Action implements IAction {
+
+  /**
+   * Indicates if the action is allowed execution. If there are any rule 
+   * violations in the validation context, the action is not allowed to 
+   * execute. 
+   */
+  allowExecution &#x3D; true;
+
+  /**
+   * The validation context for the specified action instance.
+   */
+  private _validationContext: ValidationContext &#x3D; new ValidationContext();
+  
+  /**
+   * The result of the action. The default value is [Unknown], until the action
+   * is executed.
+   */
+  actionResult: ActionResult &#x3D; ActionResult.Unknown;
+
+  /**
+   * The default constructor for the class.
+   */
+  constructor() {}
+
+  /**
+   * Use to retrieve the [ValidationContext] for the specified action.
+   */
+  get validationContext(): ValidationContext {
+    return this._validationContext;
+  }
+
+  /**
+   * Use this method to execute a concrete action. A concrete action must implement
+   * the [processAction] and the [validateActionResult] functions to be a valid
+   * action.
+   */
+  execute() {
+    console.log(&#x27;Preparing to execute action.&#x27;);
+    this.processActionPipeline();
+  }
+
+  /**
+   * Use this method to process the action pipeline methods. 
+   */
+  private processActionPipeline() {
+    this.startAction();
+    if (this.allowExecution) {
+      this.processAction();
+    }
+    this.finishAction();
+  }
+
+  /**
+   * Use this method to call the pipeline methods for the [start] or beginning 
+   * process of the action pipeline.
+   */
+  private startAction() {
+    console.log(&#x27;Starting action.&#x27;);
+    this.start();
+    this.audit();
+    this.preValidateAction();
+    this.evaluateRules();
+    this.postValidateAction();
+    this.preExecuteAction();
+  }
+
+  /**
+   * Use this method to execute the methods at the end of the action pipeline.
+   */
+  private finishAction() {
+    console.log(&#x27;Finishing action.&#x27;);
+    this.postExecuteAction();
+    this.validateActionResult();
+    this.finish();
+  }
+
+  /**
+   * Use this method to process the action. This will only be called if the action&#x27;s 
+   * validation context is in a valid state (no rule violations).
+   * 
+   * All concrete actions are required to provide an implementation of the [performAction] 
+   * method that is called for this part of the action pipeline.
+   */
+  private processAction() {
+    console.log(&#x27;Processing action.&#x27;);
+    this.performAction();
+  }
+
+  /**
+   * All action must implement this function. This is where your
+   * [business logic] should be implemented. This function is called if
+   * there are no validation rule exceptions.
+   */
+  performAction() {
+    throw new Error(
+      &#x27;Not implemented. Requires implementation in concrete action.&#x27;
+    );
+  }
+
+  /**
+   * Override/Implement this function to perform an early operation in the action pipeline.
+   * This function belongs to the pre-execute functions of the action pipeline.
+   */
+  start() {
+    console.log(&#x27;Starting action.&#x27;);
+  }
+
+  /**
+   * Implement this function to perform any auditing features during the pre-exectuion of the
+   * business logic.
+   */
+  audit() {
+    console.log(&#x27;Auditing action.&#x27;);
+  }
+
+  /**
+   * Use this function to setup any validation rules before the validation happens. This
+   * function is called before [evaluateRules].
+   */
+  preValidateAction() {
+    console.log(&#x27;Pre-validating action.&#x27;);
+  }
+
+  /**
+   * Use this function to implement the execution of the validation and business rules. This
+   * function is called after [preValidateAction].
+   */
+  evaluateRules() {
+    console.log(&#x27;Evaluating action rules.&#x27;);
+    const context &#x3D; this.validateAction();
+    if (context.isValid) {
+      this.allowExecution &#x3D; true;
+      this.validationContext.state &#x3D; ValidationContextState.Success;
+    } else {
+      this.allowExecution &#x3D; false;
+      this.validationContext.state &#x3D; ValidationContextState.Failure;
+    }
+  }
+
+  /**
+   * Use to determine or handle the results of the rule evalation. This
+   * function is called after the [evaluateRules].
+   */
+  postValidateAction() {
+    console.log(&#x27;Post-Validation of action.&#x27;);
+  }
+
+  /**
+   * Use this function to perform any setup before the action is executed.
+   */
+  preExecuteAction() {
+    console.log(&#x27;Pre-execution of action.&#x27;);
+  }
+
+  /**
+   * Use this funciton to evaluate the action after the the business logic within
+   * the [performAction] has executed.
+   */
+  postExecuteAction() {
+    console.log(&#x27;Post-execution of action&#x27;);
+  }
+
+  /**
+   * This function requires implementation to determin the state and result of the action.
+   * Use this opportunity to validate the results.
+   */
+  validateActionResult(): ActionResult {
+    throw new Error(&#x27;Concrete actions required to implement this method.&#x27;);
+  }
+
+  /**
+   * Use this function to perform any cleanup, logging, or disposing of resources used
+   * by the action. This is the last function called during the pipeline.
+   */
+  finish() {
+    console.log(&#x27;Finish action.&#x27;);
+  }
+
+  /**
+   * Implement this function to perform validation of business rules and data.
+   */
+  validateAction() {
+    console.log(&#x27;Validating the action.&#x27;);
+    return this.validationContext;
+  }
+}
+</code></pre>
+    </div>
+</div>
+
+
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+        <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'class';
+            var COMPODOC_CURRENT_PAGE_URL = 'Action.html';
+        </script>
+
+       <script src="../js/search/search.js"></script>
+       <script src="../js/search/lunr.min.js"></script>
+       <script src="../js/search/search-lunr.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+       <script src="../js/search/search_index.js"></script>
+
+
+    </body>
+</html>
